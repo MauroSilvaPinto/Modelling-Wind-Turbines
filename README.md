@@ -35,5 +35,5 @@ Finally, I analysed and interpreted results.
 
 ## Results, discussion, and detailed explanation about methods
 
-You can find a detailed explanation of all methods, along with presented results and discussion in [Report](report.pdf).
+You can find a detailed explanation of all methods, along with presented results and discussion in the pdf [report](report.pdf).
 You can also find full results in [results](results.xlsx).
