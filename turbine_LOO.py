@@ -1,8 +1,8 @@
 """
-Tue Apr 18 - Wed Apr 26
 @author: mauro pinto
 
-Write description
+The code for Leave-One-Out turbine modelling.
+That is: trains with turbine A, B, C and tests turbine D. 
 
 """
 from utils import Utils
