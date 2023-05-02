@@ -19,3 +19,17 @@ The goal was to use this data and create machine learning models that can predic
 These models can be used as 'benchmarks' or 'digital twins' to compare the actual behaviour with expected behaviour.
 If actual behaviour consistently underperforms expected behaviour (negative bias) this could be a tell-tale sign of a defect component and maintenance actions
 should be undertaken before it causes bigger components to fail.
+
+
+## Methodology
+
+1) Developed a Machine Learning pipeline
+2) Developed 3 different approaches:
+  a) Turbine Specific
+  b) Turbine Leave-One-Out (LOO)
+  c) Turbine Generalised
+
+3) Using the Machine Learning pipeline, for each approach:
+  a) modelled several regression problems different combinations of inputs and outputs)
+
+4) Analysed and interpreted results
