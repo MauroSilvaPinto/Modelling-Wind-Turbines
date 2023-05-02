@@ -37,7 +37,7 @@ should be undertaken before it causes bigger components to fail.
 
 ## Approaches
 
-Generalised (one model for all turbines):
+[Generalised](turbine_generalized.py) (one model for all turbines):
 - all turbines are configured similarly, so they all should work similarly
 - when one turbine has divergent results, could it have a malfunction?
 
