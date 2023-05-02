@@ -23,13 +23,13 @@ should be undertaken before it causes bigger components to fail.
 
 ## Methodology
 
-1) Developed a Machine Learning pipeline
-2) Developed 3 different approaches:
-  a) Turbine Specific
-  b) Turbine Leave-One-Out (LOO)
-  c) Turbine Generalised
+- Developed a Machine Learning pipeline
+- Developed 3 different approaches:
+  - Turbine Specific
+  - Turbine Leave-One-Out (LOO)
+  - Turbine Generalised
 
-3) Using the Machine Learning pipeline, for each approach:
-  a) modelled several regression problems different combinations of inputs and outputs)
+- Using the Machine Learning pipeline, for each approach:
+  - modelled several regression problems different combinations of inputs and outputs)
 
-4) Analysed and interpreted results
+- Analysed and interpreted results
