@@ -23,13 +23,12 @@ should be undertaken before it causes bigger components to fail.
 
 ## Methodology
 
-- Developed a Machine Learning pipeline
-- Developed 3 different approaches:
-  - [Specific](turbine_specific.py) (one model for each turbine)
-  - [Leave-One-Out](turbine_LOO.py) (train with A,B,C and test with D, then rotate)
-  - [Generalised](turbine_generalized.py) (one model for all turbines)
+I developed a Machine Learning pipeline.
 
-- Using the Machine Learning pipeline, for each approach:
-  - modelled several regression problems different combinations of inputs and outputs)
+Then, I developed 3 different approaches:
+  - [Specific](turbine_specific.py) (one model for each turbine);
+  - [Leave-One-Out](turbine_LOO.py) (train with A,B,C and test with D, then rotate);
+  - [Generalised](turbine_generalized.py) (one model for all turbines).
 
-- Analysed and interpreted results
+Using the Machine Learning pipeline, for each approach, I modelled several regression problems different combinations of inputs and outputs).
+Finally, I analysed and interpreted results.
