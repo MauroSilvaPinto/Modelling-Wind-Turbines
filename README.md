@@ -25,8 +25,8 @@ should be undertaken before it causes bigger components to fail.
 
 - Developed a Machine Learning pipeline
 - Developed 3 different approaches:
-  - [Specific](turbine_specific.py) Specific (one model for each turbine)
-  - [LOO](turbine_LOO.py) (train with A,B,C and test with D, then rotate)
+  - [Specific](turbine_specific.py) (one model for each turbine)
+  - [Leave-One-Out](turbine_LOO.py) (train with A,B,C and test with D, then rotate)
   - [Generalised](turbine_generalized.py) (one model for all turbines)
 
 - Using the Machine Learning pipeline, for each approach:
