@@ -1,8 +1,8 @@
 """
-Tue Apr 18 - Wed Apr 26
 @author: mauro pinto
 
-Write description
+The code for generalized turbine modelling.
+This code delivers a model that is based on all turbines and is tested on all turbines as well.
 
 """
 from utils import Utils
