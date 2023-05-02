@@ -1,8 +1,8 @@
 """
-Tue Apr 18 - Wed Apr 26
 @author: mauro pinto
 
-Write description
+The code for turbine-specific modelling.
+This code delivers a model that is trained and tested on the same turbine.
 
 """
 from utils import Utils
