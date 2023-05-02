@@ -25,25 +25,11 @@ should be undertaken before it causes bigger components to fail.
 
 - Developed a Machine Learning pipeline
 - Developed 3 different approaches:
-  - Turbine Specific
-  - Turbine Leave-One-Out (LOO)
-  - Turbine Generalised
+  - [Specific](turbine_specific.py) Specific (one model for each turbine)
+  - [LOO](turbine_LOO.py) (train with A,B,C and test with D, then rotate)
+  - [Generalised](turbine_generalized.py) (one model for all turbines)
 
 - Using the Machine Learning pipeline, for each approach:
   - modelled several regression problems different combinations of inputs and outputs)
 
 - Analysed and interpreted results
-
-
-## Approaches
-
-[Generalised](turbine_generalized.py) (one model for all turbines):
-- all turbines are configured similarly, so they all should work similarly
-- when one turbine has divergent results, could it have a malfunction?
-
-[LOO](turbine_LOO.py) (train with A,B,C and test with D, then rotate):
-- same assumptions as generalized
-
-[Specific](turbine_specific.py) Specific (one model for each turbine):
-- each turbine has its setting, and should have its model.
-- we can monitor, in a more detailed manner, the existence of performance changes
