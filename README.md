@@ -30,7 +30,7 @@ Then, I developed 3 different approaches:
   - [Leave-One-Out](turbine_LOO.py) (train with A,B,C and test with D, then rotate);
   - [Generalised](turbine_generalized.py) (one model for all turbines).
 
-Using the Machine Learning pipeline, for each approach, I modelled several regression problems different combinations of inputs and outputs).
+Using the Machine Learning pipeline, for each approach, I modelled several regression problems by using different combinations of inputs and outputs.
 Finally, I analysed and interpreted results.
 
 ## Results, discussion, and detailed explanation about methods
